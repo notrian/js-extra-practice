@@ -6,3 +6,5 @@ EX: "apples".toUpperCase() OUTPUT: "APPLES"
 */
 
 // YOUR CODE BELOW
+let capitalString = "wassup how you doin";
+console.log(capitalString.toUpperCase());

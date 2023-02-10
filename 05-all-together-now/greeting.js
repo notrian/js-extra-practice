@@ -6,6 +6,10 @@
 // greeting(); // => Hello!
 
 // YOUR CODE BELOW
+function greeting(firstName) {
+    if (firstName) return `Hello ${firstName}!`;
+    return 'Hello!';
+}
 
 // Do not change the code below
 module.exports = { greeting };

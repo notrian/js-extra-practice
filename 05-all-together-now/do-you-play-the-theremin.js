@@ -8,6 +8,10 @@
 // doYouPlayTheTheremin('Scott'); // => true
 
 // YOUR CODE BELOW
+function doYouPlayTheTheremin(inputString) {
+    if (inputString.toLowerCase().startsWith('s')) return true;
+    else return false; 
+}
 
 // Do not change the code below
 module.exports = { doYouPlayTheTheremin };

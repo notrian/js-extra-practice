@@ -3,6 +3,10 @@
 // If the user does not define a last name, assume the last name is 'Doe'.
 
 // YOUR CODE BELOW
+function defaultGreet(first, last) {
+    if (!last) last = 'Doe';
+    return `Hi ${first} ${last}!`;
+}
 
 // Do not change the code below
-module.exports = { defulatGreet };
+module.exports = { defaultGreet };

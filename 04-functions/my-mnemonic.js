@@ -8,6 +8,14 @@
 // myMnemonic('We', 'Eat', 'Eggs'); // => WEE
 
 // YOUR CODE BELOW
+function myMnemonic(string1, string2, string3, string4) {
+    let output = '';
+    if (string1) output += string1[0].toUpperCase();
+    if (string2) output += string2[0].toUpperCase();
+    if (string3) output += string3[0].toUpperCase();
+    if (string4) output += string4[0].toUpperCase();
+    return output;
+}
 
 // Do not change the code below this line
 module.exports = { myMnemonic };
